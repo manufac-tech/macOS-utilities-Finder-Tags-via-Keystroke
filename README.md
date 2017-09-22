@@ -18,7 +18,7 @@ The example Automator workflows I have included here are one way to trigger _tag
 
 
 Open the workflows in Automator to see how simple they are - I just:  
-1. Used the _tag_ command in a tiny Bash script  
+1. Used the _tag_ command in a tiny Bash script. Note: The Automator action requires including the path to the command.
 
     for f in "$@"  
     do  
