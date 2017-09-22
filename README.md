@@ -16,22 +16,30 @@ More in the _tag_ [README](https://github.com/jdberry/tag).
 The example Automator workflows I have included here are one way to trigger _tag_ to act on the selected finder items via keyboard shortcut. (This functionality is probably available using LaunchBar, Alfred, Keyboard Maestro, etc., but I wanted to assign tags via keyboard w/o needing any other apps running.)  
 
 
-Open the workflows in Automator to see how simple they are:  
-1. The _tag_ command is used a tiny Bash script. Note: The Automator action requires including the path to the command.
+Running Shell Scripts from keyboard shortcuts  
+1. The _tag_ command is used in a tiny Bash script. Note: The Automator action requires including the path to the command.
 
     for f in "$@"  
     do  
     /usr/local/bin/tag -a –flag "$f"  
     done  
 
-2. The Bash script is wrapped in an Automator workflow  
+2. The Bash script is contained in an Automator action in a workflow  
 3. The workflow is saved as a macOS Service  
-4. A keyboard shortcut is assigned to the Service. 
+4. A keyboard shortcut is assigned to the Service  
 
 Note: Services can be assigned a keyboard shortcut in _System Preferences -> Keyboard -> Shortcuts -> Services._  
 
+### Toggling a tag on or off (on an item)  
+I currently toggle a "flag" tag in the most simple manner:  
+	1. "cmd-shift-L" ADDS the "flag" tag  
+	2. "cmd-opt-shift-L" REMOVES the "flag" tag.  
+	3. I would like to 
+		a. Read the state of the tag on the file  
+		b. Use a _single_ key command to _toggle_ that state.  
+	4. I would guess this could happen using the tag command with some more Bash scripting - I might try that a bit later.  
 
-### Setting up _tag_ using homebrew in macOS terminal  
+### Note: Setting up _tag_ using homebrew in macOS terminal  
 Requirements (from the [README.md](https://github.com/jdberry/tag/blob/master/README.md))  
 1. 10.9 Mavericks and above  
 2. You must have Xcode or the Command Line Tools installed to build/install.  
