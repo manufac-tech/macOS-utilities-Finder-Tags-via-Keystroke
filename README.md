@@ -18,10 +18,15 @@ The example Automator workflows I have included here are one way to trigger _tag
 
 
 Open the workflows in Automator to see how simple they are - I just:  
-- Used the _tag_ command in a tiny Bash script  
-- Wrapped it in an Automator workflow  
-- Saved it as a macOS Service  
-- Assigned a keyboard shortcut to the Service.  
+1. Used the _tag_ command in a tiny Bash script  
+    for f in "$@"  
+    do  
+    /usr/local/bin/tag -a –flag "$f"  
+    done  
+
+2. Wrapped it in an Automator workflow  
+3. Saved it as a macOS Service  
+4. Assigned a keyboard shortcut to the Service.  
 
 Note: Services can be assigned a keyboard shortcut in _System Preferences -> Keyboard -> Shortcuts -> Services._  
 
