@@ -17,16 +17,16 @@ The example Automator workflows I have included here are one way to trigger _tag
 
 
 #### Running Shell Scripts from keyboard shortcuts  
-1. The _tag_ command is used in a tiny Bash script. Note: The Automator action requires including the path to the command.
+The _tag_ command is used in a tiny Bash script. Note: The Automator action requires including the path to the command.
 
     for f in "$@"  
     do  
     /usr/local/bin/tag -a YourTagHere "$f"  
     done  
 
-2. The Bash script is contained in an Automator action in a workflow  
-3. The workflow is saved as a macOS Service  
-4. A keyboard shortcut is assigned to the Service  
+1. The Bash script is contained in an Automator action in a workflow  
+2. The workflow is saved as a macOS Service  
+3. A keyboard shortcut is assigned to the Service  
 
 Note: Services can be assigned a keyboard shortcut in _System Preferences -> Keyboard -> Shortcuts -> Services._  
 
