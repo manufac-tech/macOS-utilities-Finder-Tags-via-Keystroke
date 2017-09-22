@@ -19,6 +19,7 @@ The example Automator workflows I have included here are one way to trigger _tag
 
 Open the workflows in Automator to see how simple they are - I just:  
 1. Used the _tag_ command in a tiny Bash script  
+
     for f in "$@"  
     do  
     /usr/local/bin/tag -a –flag "$f"  
