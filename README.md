@@ -32,14 +32,14 @@ Note: Services can be assigned a keyboard shortcut in _System Preferences -> Key
 
 ### Toggling a tag on or off (on an item)  
 I currently toggle a "flag" tag in the most simple manner:  
-	
-1. "cmd-shift-L" ADDS the "flag" tag  
+	1. "cmd-shift-L" ADDS the "flag" tag  
 2. "cmd-opt-shift-L" REMOVES the "flag" tag.  
 
 I would like to  
 	a. Read the state of the tag on the file  
-			b. Use a _single_ key command to _toggle_ that state.  
-	b. I would guess this could happen using the tag command with some more Bash scripting - I might try that a bit later.  
+	b. Use a _single_ key command to _toggle_ that state.  
+
+I would guess this could happen using the tag command with some more Bash scripting - I might try that a bit later.  
 
 ### Note: Setting up _tag_ using homebrew in macOS terminal  
 Requirements (from the [README.md](https://github.com/jdberry/tag/blob/master/README.md))  
