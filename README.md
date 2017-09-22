@@ -3,6 +3,7 @@ Use keyboard shortcuts to assign tags to items in macOS Finder.
 
 ### Made possible by the "tags" command    
 Portland's own [James Berry](https://github.com/jdberry) made a very useful command line tool (_[tag](https://github.com/jdberry/tag)_) that can, among other things, add/remove tags to/from Finder items.  
+
 - It can add tags:  
 	`tag -a FrikkinTag`  
 
