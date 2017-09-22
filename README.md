@@ -1,4 +1,4 @@
-# macOS-Finder-Tags-via-Keystroke  
+# Assign macOS Finder Tags via Keystroke  
 Use keyboard shortcuts to assign tags to items in macOS Finder.
 
 ### Made possible by the "tag" command    
