@@ -1,5 +1,5 @@
 # Assign macOS Finder Tags via Keystroke  
-Use keyboard shortcuts to assign tags to items in macOS Finder.
+Use keyboard shortcuts to assign tags to items in macOS Finder. I tried to get this functionality since Mavericks, and was extremely happy to get this working.  I post this on the off chance that anyone else has an irrational need to have "keystroke = tag" capability.  
 
 ### Made possible by the "tag" command    
 Portland's own [James Berry](https://github.com/jdberry) made a very useful command line tool (_[tag](https://github.com/jdberry/tag)_) that can, among other things, add/remove tags to/from Finder items.  
