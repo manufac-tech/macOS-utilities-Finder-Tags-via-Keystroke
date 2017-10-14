@@ -1,7 +1,7 @@
 # Assign macOS Finder Tags via Keystroke  
 Do you have an irrational need to be a able to set the command key of your choice to add tags to files in the macOS Finder?
 
-You can do that with [James Berry's](https://github.com/jdberry) command line tool (_[tag](https://github.com/jdberry/tag)_). 
+You can do that with [James Berry's](https://github.com/jdberry) command line tool _[tag](https://github.com/jdberry/tag)_. 
 
 - It can add tags:  
 	`tag -a YourTagHere`  
